@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <style>
+
+
+   *{
+     margin: 0px;
+     padding: 0px;
+     
+   }
+  
+     main{
+    position:relative;
+    top: -110px;
+    left:700px;
+    z-index:1;
+    width: 1920px;
+    height: auto;
+     }
+     .container{
+  
+  max-width: auto;
+  height: auto;
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 0px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ 
+.overlay {
+    width: 600px;
+    height: auto;
+    position:relative;
+    top: -1150px;
+    left: 695px;
+    z-index:1
+}
+.container p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #333333;
+    
+  }
+  
+  .input,
+  .msg .area{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    border: 2px solid #e49beb;
+    font-size: 17px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+  .msg .area{
+    height: 150px;
+  }
+  
+  button{
+    position:relative;
+    top: -400px;
+    right: 500px;
+    z-index:1;
+    width: 250px;
+    background: #be6fb8;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    left:27%;
+  }
+
+  .bottom{
+    width: 1920px;
+    height: 300px;
+    position: relative;
+    top: 0%;
+    left:0px;
+    background-color: #f85484;
+  }
+  .bottom h1{
+    height: auto;
+   text-align: center;
+   font-size: 3vw;
+  }
+
+  .bottom p{
+    height: auto;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+.bg{
+  background-color: #fff;
+}
+ 
+ #myvideo{
+   position: relative;
+   left: 50px;
+ }
+  
+ </style>
+  <link rel = "icon" href ="Icons/contact.png"  type = "image/x-icon">
+    <title>Contact</title>
+
+</head>
+<body>
+
+    <ul>
+        
+        <li><a href="contact.html" target="_self"  class="selected">Contasdfuigbsiudct</a></li>
+        
+      </ul>
+<br>
+<div class="main"></div>
+<video autoplay muted loop >
+  <source src="Videos/contact1.mp4" type="video/mp4">
+</video>
+
+
+
+<div class="bottom">
+ 
+    <h1 style="padding-top: 20px;"><u>Contact us</u>  </h1>
+   
+   <p>
+     <b >Phone No. :- </b> 
+     +91 9416874123
+    
+ <br>
+   <b>Email :- </b>
+    kuldeepsaini02311@gmai.com
+ <br>
+ 
+ <b>Insta :- </b>
+ <a href="https://www.instagram.com/kuldeepsaini_23/" target="_blank">https://www.instagram.com/kuldeepsaini_23/</a>
+ <br>
+ <b>Linkedin :- </b>
+ <a href="https://www.linkedin.com/in/kuldeep-saini-31ab95220" target="_blank">https://www.linkedin.com/in/kuldeep-saini-31ab95220</a>
+   </p>
+
+   <form action="https://formspree.io/f/xqkwndro" method="POST">
+    <div class="overlay">
+        <div class="container"> 
+          <p>Contact me</p>
+          <label for="Full name">Full name</label>
+          <input type="text" class="input" id="Full name" name="Full name">
+          <label for="Email">Email</label>
+          <input type="text" class="input"  id="Email" name="Email">
+    </div>
+    
+    
+    <div class="subject">
+      <label for="Subject">Subject</label>
+      <input type="text" class="input"  id="Subject" name="Subject">
+    </div>
+    
+    <div class="msg">
+      <textarea class="area" placeholder="Leave your message"></textarea>
+    </div>
+  </div>
+    <div class="btn">
+    <button type="Send messagebutt">Send message</button></div>
+    </form>
+    
+</div>
+</div>
+
+<div class="bg">
+ <video autoplay muted loop id="myvideo">
+   <source src="Videos/test.mp4" type="video/mp4">
+</div>
+
+
+
+
+</body>
+</html>

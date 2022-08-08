@@ -1,0 +1,303 @@
+/* Ye sab ke liye */
+
+@media screen and (max-width:1204px){
+  .zoom{
+    zoom: 55%;
+  }
+  .zoomc{
+    zoom: 55%;
+  }
+
+  .zooma{
+    zoom:55%
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .activities
+  p{
+    width: 1850px;
+    }
+  }
+@media screen and (max-width:1280px){
+  .zoom{
+    zoom: 68%;
+  }
+  .zoomc{
+    zoom: 68%;
+  }
+  .zooma{
+    zoom:68%
+  }
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .activities
+  p{
+    width: 1850px;
+    }
+}
+
+
+ul {
+    width: 1903px;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e04c84;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+
+    display: block;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #535353;
+  }
+  *{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .selected{
+      background-color: #b94bb0;
+    }
+    
+hr {
+  
+  height: auto;
+  border-top: 3px solid rgb(92, 91, 91);
+  border-radius: 5px;
+}
+
+
+/* Home/index css */
+
+.main{
+  position:relative;
+  top: -18px;
+  left:0px;
+  z-index:1;
+  width: 100vw ;
+  height:100vh;
+ 
+  overflow: hidden;
+  }
+
+.third{
+ 
+  position: relative;
+  top: -29px;
+  left: 0px;
+  }
+/* About me */
+
+.aboutst {
+  width: 1053px;
+  height: 292px;
+  position: relative;
+  top: -325px;
+  left: 850px;
+  z-index: 1;
+  background-color: #e04c84;
+  padding-bottom: 0px;
+  }
+  
+  .aboutst h1,h3{
+    display: block;
+        color: rgb(247, 247, 247);
+        text-align: left;
+        margin-left:3% ;
+        text-decoration: none;
+        padding-top: 10px;
+  }
+  
+  .aboutst p{
+    display: block;
+    color: rgb(247, 247, 247);
+    text-align: left;
+    margin-left:2.5%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    line-height: 31px;
+     }
+
+.moredetailes{
+      width: 1903px;
+      height: 200px;
+      position: absolute;
+      top: 1859px;
+      left:0%;
+      background-color: #e04c84;
+    }
+
+
+.moredetailes p{
+  display: block;
+  color: rgb(247, 247, 247);
+  text-align: left;
+  font-size: 25px;
+  margin-left:2.5%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 31px;
+  }
+ 
+
+
+/* Education */
+
+.t1{
+  margin-left: 1%;
+}
+table {
+  border: 2px solid #000;
+  margin: 1rem 0 1rem 0;
+  width: 95%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 2%;
+}
+td,th {
+  border: 1px solid #000;
+  padding: 0.4rem;
+}
+
+.skils{
+  margin-left: 5%;
+  text-align: auto;
+  letter-spacing: 1px;  
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+.activities
+  p{
+    text-align: left;
+    letter-spacing: 1px;  
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #333333;
+    margin-left: 3%;
+  }
+
+
+
+
+/* Contact me css*/
+
+.mainc{
+   position:relative;
+  top: -18px;
+  left:0px;
+  z-index:1;
+   }
+
+ 
+
+.container{
+  max-width: 500;
+  height: auto;
+  background: rgb(255, 255, 255);
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 0px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ 
+
+.container p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #333333;
+    
+  }
+  
+  .input,
+  .msg .area{
+    width: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid #e49beb;
+    font-size: 17px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+  .msg .area{
+    height: 150px;
+  }
+  
+  button{
+    position:absolute;
+    top: 780px;
+    left: 850px;
+    z-index:1;
+    width: 250px;
+    background: #be6fb8;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .posi{
+    width: 600px;
+    position: relative;
+    top: -790px;
+    left: 680px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bottom{
+    width: 1903px;
+    height: auto;
+    position: absolute;
+    top: 110%;
+    left:0px;
+    background-color: #e04c84;
+  }
+ 
+  .bottom h1{
+    
+    text-align: center;
+    font-size: 35px;
+   }
+ 
+   .bottom p{
+     text-align: center;
+     font-size: 25px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     line-height: 31px;
+   }
+   
